@@ -21,7 +21,7 @@ export CGO_CXXFLAGS=-std=c++11
 ```
 3. Go get
 ```
-go get github.com/evan176/sentencepiecego
+go get github.com/activezhao/sentencepiecego
 ```
 
 ```go
@@ -30,7 +30,7 @@ package main
 import (
         "fmt"
 
-        "github.com/evan176/sentencepiecego"
+        "github.com/activezhao/sentencepiecego"
 )
 
 func main() {
