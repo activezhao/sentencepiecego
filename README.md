@@ -5,14 +5,14 @@ This is a golang interface of [sentencepiece](https://github.com/google/sentence
 1. Download shared library
 Please check sentencepiece library first with pip and spm-train. 
 
-If you use amd64, you can download v0.1.98-x86-64 in releases, which libsentencepiecego.so is built based on google/sentencepiece of 0.1.98.
+If you use amd64, you can download v0.1.98-amd in releases, which libsentencepiecego.so is built based on google/sentencepiece of 0.1.98.
 ```bash
-sudo wget https://github.com/activezhao/sentencepiecego/releases/download/v0.1.98-x86-64/libsentencepiecego.so -P /usr/local/lib/
+sudo wget https://github.com/activezhao/sentencepiecego/releases/download/v0.1.98-amd/libsentencepiecego.so -P /usr/local/lib/
 ldconfig
 ```
-If you use arm64, you can download v0.1.98-arm-64 in releases, which libsentencepiecego.so is built based on google/sentencepiece of 0.1.98.
+If you use arm64, you can download v0.1.98-arm in releases, which libsentencepiecego.so is built based on google/sentencepiece of 0.1.98.
 ```bash
-sudo wget https://github.com/activezhao/sentencepiecego/releases/download/v0.1.98-arm-64/libsentencepiecego.so -P /usr/local/lib/
+sudo wget https://github.com/activezhao/sentencepiecego/releases/download/v0.1.98-arm/libsentencepiecego.so -P /usr/local/lib/
 ldconfig
 ```
 2. Export CGO variable
