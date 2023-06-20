@@ -1,6 +1,6 @@
 CXX=g++
 INCLUDES=-I. -I../src/ -I../
-CXXFLAGS=-fPIC -pthread -Wall -std=c++17 -O2 -march=x86-64 $(INCLUDES)
+CXXFLAGS=-fPIC -pthread -Wall -std=c++17 -O2 -march=armv8-a $(INCLUDES)
 LDFLAGS=-shared
 OBJS=sentencepiece_wrapper.o
 TARGET=libsentencepiecego.so
